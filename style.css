@@ -10,6 +10,7 @@
     background-image: url('/imgs/wolfgang-hasselmann-AWaGhv8eayc-unsplash.jpg');
     background-position: center;
     background-size: cover;
+    transition: 1.5s;
 }
 .navbar{
     width: 80%;
@@ -53,6 +54,7 @@ svg{
 #svgCircle{
     stroke-dasharray: 1130;
     stroke-dashoffset: 1130;
+    transition: 1s;
 }
 span{
     position: absolute;
@@ -79,7 +81,37 @@ span{
     right: 166px;
     top: 49px;
 }
-/*#step5{
-    right: 20px;
-    top: 220px;
-}*/
+#step5{
+    right: 40px;
+    top: 218px;
+}
+.user-box{
+    width: 350px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: #fff;
+    transition: 1s;
+}
+.user img{
+    width: 80px;
+}
+.social-links{
+    display: flex;
+    gap: 1rem;
+    width: 20px;
+}
+.social-links a{
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(rgb(85, 149, 85));
+    display: grid;
+    border-radius: 0.5rem;
+    color: greenyellow;
+    align-items: center;
+}
+.social-links a:hover{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+}
