@@ -52,7 +52,7 @@ svg{
 }
 #svgCircle{
     stroke-dasharray: 1130;
-    stroke-dashoffset: 452;
+    stroke-dashoffset: 226;
 }
 span{
     position: absolute;
@@ -72,14 +72,14 @@ span{
     bottom: 117px;
 }
 #step3{
-    left: 127px;
-    top: 67px;
+    left: 76px;
+    top: 111px;
 }
-/*#step4{
-    left: 156px;
-    top: 30px;
+#step4{
+    right: 0px;
+    top: 100px;
 }
-#step5{
+/*#step5{
     right: 20px;
     top: 220px;
 }*/
