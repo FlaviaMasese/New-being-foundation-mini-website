@@ -51,8 +51,8 @@ svg{
     transform: translate( -50%, -50%);
 }
 #svgCircle{
-    stroke-dasharray: 1256;
-    stroke-dashoffset: 251;
+    stroke-dasharray: 1130;
+    stroke-dashoffset: 452;
 }
 span{
     position: absolute;
@@ -64,12 +64,12 @@ span{
     cursor: pointer;
 }
 #step1{
-    right: 184px;
-    bottom: 44px;
+    right: 165px;
+    bottom: 49px;
 }
 #step2{
-    left: 54px;
-    bottom: 155px;
+    left: 73px;
+    bottom: 117px;
 }
 #step3{
     left: 127px;
