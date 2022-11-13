@@ -44,6 +44,7 @@ nav ul li{
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
+    overflow: hidden;
 }
 svg{
     position: absolute;
@@ -64,6 +65,7 @@ span{
     border-radius: 50%;
     display: block;
     cursor: pointer;
+    z-index: 10;
 }
 #step1{
     right: 165px;
@@ -97,21 +99,18 @@ span{
 }
 .user img{
     width: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
 }
 .social-links{
-    display: flex;
-    gap: 1rem;
     width: 20px;
+    border-radius: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: right;
 }
-.social-links a{
-    width: 2rem;
-    height: 2rem;
-    background: linear-gradient(rgb(85, 149, 85));
-    display: grid;
-    border-radius: 0.5rem;
-    color: greenyellow;
-    align-items: center;
+.user{
+    height: 450px;
 }
-.social-links a:hover{
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
-}
+

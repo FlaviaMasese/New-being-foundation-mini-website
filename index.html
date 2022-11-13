@@ -37,7 +37,7 @@
                 <span id="step4"></span>
                 <span id="step5"></span>
             </div>
-            <div class="user-box">
+            <div class="user-box" id="userbox">
                 <div class="user">
                     <img src="./imgs/279044222_5536751533023415_8610233561887003854_n.jpg" alt="">
                     <h1>Jide Famuwagun</h1>
@@ -47,9 +47,51 @@
                         <a href=https://mobile.twitter.com/sweder_etc target="_blank"><i class="uil uil-twitter"></i></a>
                         <a href="https://www.reddit.com/user/sweder_etc/" target="_blank"><i class="uil uil-reddit-alien-alt"></i></a>
                         <a href="https://unsplash.com/@sweder_etc" target="_blank"><i class="uil uil-browser"></i></a>
-
                     </div>
-
+                </div>
+                <div class="user">
+                    <img src="./imgs/piccropped.jpg" alt="">
+                    <h1>Flavia Bosibori</h1>
+                    <p>A trained Chemical Engineer and currently a doctoral researcher at Fujian Institute </p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/sweder.etc?igshid=YmMyMTA2M2Y=" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+                        <a href=https://mobile.twitter.com/sweder_etc target="_blank"><i class="uil uil-twitter"></i></a>
+                        <a href="https://www.reddit.com/user/sweder_etc/" target="_blank"><i class="uil uil-reddit-alien-alt"></i></a>
+                        <a href="https://unsplash.com/@sweder_etc" target="_blank"><i class="uil uil-browser"></i></a>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="./imgs/89868953_3039728959405134_5413636938932420608_n.jpg" alt="">
+                    <h1>Oyewole S. Oginni</h1>
+                    <p>A trained Chemical Engineer and currently a doctoral researcher at Fujian Institute </p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/sweder.etc?igshid=YmMyMTA2M2Y=" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+                        <a href=https://mobile.twitter.com/sweder_etc target="_blank"><i class="uil uil-twitter"></i></a>
+                        <a href="https://www.reddit.com/user/sweder_etc/" target="_blank"><i class="uil uil-reddit-alien-alt"></i></a>
+                        <a href="https://unsplash.com/@sweder_etc" target="_blank"><i class="uil uil-browser"></i></a>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="./imgs/194798936_4260790390632312_2020632571346059680_n.jpg" alt="">
+                    <h1>Ayeni Emmanuel Ayodeji</h1>
+                    <p>A trained Chemical Engineer and currently a doctoral researcher at Fujian Institute </p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/sweder.etc?igshid=YmMyMTA2M2Y=" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+                        <a href=https://mobile.twitter.com/sweder_etc target="_blank"><i class="uil uil-twitter"></i></a>
+                        <a href="https://www.reddit.com/user/sweder_etc/" target="_blank"><i class="uil uil-reddit-alien-alt"></i></a>
+                        <a href="https://unsplash.com/@sweder_etc" target="_blank"><i class="uil uil-browser"></i></a>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="./imgs/298526516_5592233530821318_1454152569826477882_n.jpg" alt="">
+                    <h1>Faith Igedi</h1>
+                    <p>A trained Chemical Engineer and currently a doctoral researcher at Fujian Institute </p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/sweder.etc?igshid=YmMyMTA2M2Y=" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+                        <a href=https://mobile.twitter.com/sweder_etc target="_blank"><i class="uil uil-twitter"></i></a>
+                        <a href="https://www.reddit.com/user/sweder_etc/" target="_blank"><i class="uil uil-reddit-alien-alt"></i></a>
+                        <a href="https://unsplash.com/@sweder_etc" target="_blank"><i class="uil uil-browser"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,28 +105,35 @@
         var step4 = document.getElementById("step4");
         var step5 = document.getElementById("step5");
         var main = document.getElementById("main");
+        var userbox = document.getElementById("userbox");
+
 
         main.style.backgroundImage= "url('/imgs/wolfgang-hasselmann-AWaGhv8eayc-unsplash.jpg')";
 
         step1.addEventListener('click',()=>{
             svgCircle.style.strokeDashoffset = "904";
             main.style.backgroundImage= "url('/imgs/dreamstimefree_1600922.jpg')";
+            userbox.style.top = "350px"
         });
         step2.addEventListener('click',()=>{
             svgCircle.style.strokeDashoffset = "678";
             main.style.backgroundImage= "url('/imgs/dreamstimefree_5703492.jpg')";
+            userbox.style.top = "-800px"
         });
         step3.addEventListener('click',()=>{
             svgCircle.style.strokeDashoffset = "452";
             main.style.backgroundImage= "url('/imgs/308687686_5778301792214490_433076511779515294_n.jpg')";
+            userbox.style.top = "-1250px"
         });
         step4.addEventListener('click',()=>{
             svgCircle.style.strokeDashoffset = "226";
             main.style.backgroundImage= "url('/imgs/53761164_2311831008861603_464740995007774720_n.jpg')";
+            userbox.style.top = "-1700px"
         });
         step5.addEventListener('click',()=>{
             svgCircle.style.strokeDashoffset = "0";
             main.style.backgroundImage= "url('/imgs/299473614_5856262721072293_7705689125116586174_n.jpg')";
+            userbox.style.top = "100px"
         });
     </script>
 </body>
